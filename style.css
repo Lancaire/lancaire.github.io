@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
+
     background-color: black;
 }
 
@@ -99,4 +99,22 @@ body{
     animation-fill-mode:forwards;
     animation-delay:3.5s;
     opacity: 0%;
+}
+.fractalize{
+    position:relative;
+    height: 500px;
+    width:500px;
+    border: white 10px solid;
+    border-radius: 25px;
+    top:-275px;
+    animation-name: druga;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-delay:3.75s;
+    opacity: 0%;
+    margin:5%;
+}
+.resizee{
+    width: 475px;
+    height: 475px;
 }
