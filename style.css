@@ -1,0 +1,102 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+.part1{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+    top:400px;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
+
+        @keyframes rotation{
+            0%{
+                top:400px;
+                scale:1;
+                transform: rotate(0deg);
+                opacity: 0%;
+            }
+            50%{
+                top:400px;
+                scale:3;
+                transform: rotate(360deg);
+                opacity: 100%;
+            }
+            100%{
+                top:100px;
+                scale:3;
+                transform: rotate(360deg);
+                opacity: 100%;
+
+            }
+        }
+.part2{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+    top:150px;
+    animation-name: druga;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-delay:2.75s;
+    opacity: 0%;
+}
+        @keyframes druga{
+            0%{
+                scale:1;
+                opacity: 0%;
+            }
+            100%{
+                scale:1;
+                opacity: 100%;
+
+            }
+        }
+ .part3{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+    top:150px;
+    animation-name: druga;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-delay:3s;
+    opacity: 0%;
+}
+.part4{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+    top:150px;
+    animation-name: druga;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-delay: 3.25s;
+    opacity: 0%;
+}
+.part5{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+    top:150px;
+    animation-name: druga;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-delay:3.5s;
+    opacity: 0%;
+}
