@@ -9,7 +9,7 @@ body{
     height:200px;
     width:100%-10px;
     text-align: center;
-    background-color: black;
+    background-image: url("banner.png");
 }
 #lancairespin{
     position:relative;
@@ -39,7 +39,6 @@ body{
     display:flex;
     justify-content: center;
     gap:20px;
-
 }
 #panic{
     border: white solid 10px;
