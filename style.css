@@ -1,0 +1,113 @@
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.topsection{
+    border:solid black 10px;
+    height:200px;
+    width:100%-10px;
+    text-align: center;
+    background-image: url("banner.png");
+}
+#lancairespin{
+    position:relative;
+    top:-40px;
+}
+.middlesection{
+    display: flex;
+}
+#middle1{
+    border: solid rgb(0, 0, 0) 10px;
+    background-color: black;
+    height:610px;
+    width:35%;
+}
+#middle2{
+    border: solid rgb(0, 0, 0) 10px;
+    background-color: black;
+    height:610px;
+    width:30%;
+}
+#middle3{
+    border: solid rgb(0, 0, 0) 10px;
+    background-color: black;
+    height:610px;
+    width:35%;
+}
+#middle1b{
+    text-align: center;
+    vertical-align: middle;
+    border: solid white 10px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 580px;
+    color:white;
+}
+#middle3b{
+    text-align: center;
+    vertical-align: middle;
+    border: solid white 10px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 580px;
+    color:white;
+}
+#commontext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.bottomsection{
+    border: rgb(0, 0, 0) solid 10px;
+    border-radius: 20px;
+}
+
+#singles{
+    border: white solid 10px;
+    border-radius: 20px;
+    height:100px;
+    top:75px;
+    text-align: center;
+    width:100%;
+    background-color: black;
+    transition: transform 0.25s ease;
+    position:relative;
+    top:0px;
+    
+}
+#singles:hover{
+    transform: scale(1.05);
+}
+#youtube{
+    border: white solid 10px;
+    border-radius: 20px;
+    height:100px;
+    top:75px;
+    text-align: center;
+    width:100%;
+    background-color: black;
+    transition: transform 0.25s ease;
+    position:relative;
+    top: 20px;
+    
+}
+#youtube:hover{
+    transform: scale(1.05);
+}
+#bandcamp{
+    border: white solid 10px;
+    border-radius: 20px;
+    height:100px;
+    top:75px;
+    text-align: center;
+    width:100%;
+    background-color: black;
+    transition: transform 0.25s ease;
+    position:relative;
+    top: 40px;
+    
+}
+#bandcamp:hover{
+    transform: scale(1.05);
+}
