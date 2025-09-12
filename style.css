@@ -2,7 +2,7 @@ body{
     margin:0px;
     padding:0px;
     overflow-x: hidden;
-    background-image:url("banner.png");
+    background-color:black;
 }
 .topsection{
     border:solid black 10px;
@@ -111,4 +111,5 @@ body{
 #bandcamp:hover{
     transform: scale(1.05);
 }
+
 
