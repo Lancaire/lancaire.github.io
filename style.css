@@ -1,0 +1,113 @@
+*{
+    font-family:Lucida Sans Unicode;
+    color:white;
+}
+body{
+    background-color: black;
+    margin-left:50px;
+    margin-right:50px;
+    overflow:hidden;
+}
+header {
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+    scale:30%;
+    top:-200px;
+}
+.headerlogo{
+    position:relative;
+    scale:150%;
+    top:-400px;
+    animation: headerlogoanim 3s linear infinite;
+}
+@keyframes headerlogoanim{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+main {
+    position:relative;
+    top:-500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    height: auto;
+}
+.left, .right {
+    width: 48%;
+    height: 600px;
+    border: white 5px solid;
+    border-radius: 20px;
+}
+.middle{
+    width:10%;
+}
+.right{
+    text-align: center;
+    font-size:200%;
+    overflow:auto;
+}
+.right::-webkit-scrollbar {
+    display: none;
+}
+.inputuser{
+    background-color: transparent;
+    border: white 5px solid;
+    border-radius:20px;
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    font-size:100%;
+}
+.inputmessage{
+    background-color: transparent;
+    border: white 5px solid;
+    border-radius:20px;
+    width: 90%;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size:100%;
+    resize:none;
+}
+.inputbutton{
+    background-color: transparent;
+    border: white 5px solid;
+    border-radius:20px;
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    font-size:100%;
+    transition:0.2s;
+}
+.inputbutton:hover{
+    scale:1.05;
+    cursor:pointer;
+
+}
+.test{
+    background-color: transparent;
+    border: white 5px solid;
+    border-radius:20px;
+    height:auto;
+    width:auto;
+    margin:50px;
+    padding:10px;
+}
+.left{
+        overflow:auto;
+}
+.left::-webkit-scrollbar {
+    display: none;
+}
+
