@@ -1,113 +1,74 @@
 *{
-    font-family:Lucida Sans Unicode;
-    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
 }
 body{
-    background-color: black;
-    margin-left:50px;
-    margin-right:50px;
-    overflow:hidden;
-}
-header {
-    text-align: center;
-    font-size: 200%;
-    color: white;
-    position: relative;
-    margin-top: 20px;
-    scale:30%;
-    top:-200px;
-}
-.headerlogo{
-    position:relative;
-    scale:150%;
-    top:-400px;
-    animation: headerlogoanim 3s linear infinite;
-}
-@keyframes headerlogoanim{
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-main {
-    position:relative;
-    top:-500px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 40px;
-    height: auto;
-}
-.left, .right {
-    width: 48%;
-    height: 600px;
-    border: white 5px solid;
-    border-radius: 20px;
-}
-.middle{
-    width:10%;
-}
-.right{
-    text-align: center;
-    font-size:200%;
-    overflow:auto;
-}
-.right::-webkit-scrollbar {
-    display: none;
-}
-.inputuser{
-    background-color: transparent;
-    border: white 5px solid;
-    border-radius:20px;
-    width: 50%;
-    height: 60px;
-    text-align: center;
-    font-size:100%;
-}
-.inputmessage{
-    background-color: transparent;
-    border: white 5px solid;
-    border-radius:20px;
-    width: 90%;
-    height: 60px;
-    text-decoration: none;
-    text-align: center;
-    font-size:100%;
-    resize:none;
-}
-.inputbutton{
-    background-color: transparent;
-    border: white 5px solid;
-    border-radius:20px;
-    width: 50%;
-    height: 60px;
-    text-align: center;
-    font-size:100%;
-    transition:0.2s;
-}
-.inputbutton:hover{
-    scale:1.05;
-    cursor:pointer;
-
-}
-.test{
-    background-color: transparent;
-    border: white 5px solid;
-    border-radius:20px;
-    height:auto;
-    width:auto;
-    margin:50px;
-    padding:10px;
-}
-.left{
-        overflow:auto;
-}
-.left::-webkit-scrollbar {
-    display: none;
+    margin:0px;
+    padding:0px;
+    background-color:rgb(11, 22, 16);
 }
 
+main{
+    background-image:url('placeholder.png');
+    height:1000px;
+    width:100%;
+}
+
+
+#baologo{
+   
+    width:275px;
+    position:absolute;
+    z-index: 1;
+
+}
+header{
+    display:flex;
+    height:225px;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    background-color:rgb(11, 22, 16);
+}
+
+.title{
+    display:inline;
+    color: rgb(203, 175, 80);
+    font-size:100px;
+    text-shadow: 4px 4px 16px black;
+    margin:0px;
+    padding:0px;
+}
+nav{
+    height:50px;
+    word-spacing: 20px;
+    width:100%;
+    text-align:center;
+    text-shadow: 4px 4px 16px black;
+    color: rgb(203, 175, 80);
+    font-size:30px;
+    position:relative;
+    margin:0px;
+    padding:0px;
+    background-color:rgb(11, 22, 16);
+    
+}
+
+.verticalline{
+    width:5px;
+    height:10px;
+    background-color:rgb(203, 175, 80);
+}
+header img{
+     filter: drop-shadow(0 4px 8px black);
+}
+.main1{
+    text-shadow: 2px 2px 10px black;
+    color:white;
+    font-size:45px;
+    text-align: center;
+    position:relative;
+    top:400px;
+}
